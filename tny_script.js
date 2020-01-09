@@ -62,3 +62,20 @@ function distance(x1, y1, x2, y2){
 }
 
 console.log(distance(2,3,5,7));//5
+
+var width = Math.ceil(Math.random()*10);
+var length = Math.ceil(Math.random()*10);
+
+function area(){
+   var width = Math.ceil(Math.random()*10);
+   var length = Math.ceil(Math.random()*10);
+   var area = length * width;
+   console.log(" The rectangle has a length of " + length + " and a width of " + width + ", so the area is " + area);
+   // What is the area of a rectangle that has a random length and width
+}
+
+setInterval("area()", 1000);
+
+console.log(area()) // width = 3 length = 4
+//12
+
